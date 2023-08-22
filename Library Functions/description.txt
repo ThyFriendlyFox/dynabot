@@ -1,0 +1,4 @@
+web_scraper.py: A function to fetch content from a given URL.
+api_parser.py: A function to parse API documentation and extract details about the API's endpoints, methods, parameters, etc.
+openai_interaction.py: A function to interact with the OpenAI API to get a suggestion or response based on a given prompt.
+loop_detection.py: A function that checks for repetitive patterns in the agent's memory to detect potential loops.
