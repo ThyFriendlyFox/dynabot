@@ -1,9 +1,6 @@
-# dynabot
-A Modular, Simple Autonomous Agent Framework Utilizing Localized Function Calling 
-
 # DynaBot
 
-DynaBot is an interactive command-line interface (CLI) tool powered by OpenAI's GPT-3.5-turbo engine. It's designed to assist users by invoking specific functions from a predefined library based on user input.
+DynaBot, A Modular, Simple Autonomous Agent Framework Utilizing Localized Function Calling, is an interactive command-line interface (CLI) tool powered by OpenAI's GPT-3.5-turbo engine. It's designed to assist users by invoking specific functions from a predefined library based on user input.
 
 ## Features
 
