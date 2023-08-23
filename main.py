@@ -34,7 +34,7 @@ def invoke_function(function_name):
     return function()
 
 def interact_with_llm():
-    print("Welcome to the LLM CLI! Type 'exit' to quit.")
+    print("Welcome to the Dynabot LLM CLI! Type 'exit' to quit.")
     
     # Initialize chat sequence with a system message
     chat_sequence = [{"role": "system", "content": f"You are a helpful assistant that can invoke functions from the Library Functions folder. The available functions are: {', '.join(function_details.keys())}."}]
@@ -63,7 +63,7 @@ def interact_with_llm():
             continue
         
         # Check if the assistant suggests invoking a function
-        if "invoke" in assistant_message:
+        if "invoke" in assistant_message or "run" in assistant_message or "execute" in assistant_message:
             function_name = assistant_message.split(" ")[-1]  # Extract the function name from the assistant's message
             if function_name in function_details:
                 result = invoke_function(function_name)
